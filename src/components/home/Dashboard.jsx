@@ -1,7 +1,16 @@
 import React, { useState } from "react";
 import { BiLogOut } from "react-icons/bi";
+import { useNavigate } from 'react-router-dom'
 
 const Dashboard = () => {
+    const navigate = useNavigate()
+
+    const logout = () => {
+        localStorage.clear()
+        sessionStorage.clear()
+        navigate("/login")
+    }
+
   return (
     <div className=" relative h-screen">
       <div className=" bg-blue-500 flex items-center justify-evenly  ">
@@ -13,7 +22,7 @@ const Dashboard = () => {
           {" "}
           Dashboard
         </div>
-        <button className=" text-xl text-white mx-10 bg-blue-800 p-2 rounded-full">
+        <button onClick={logout} className=" text-xl text-white mx-10 bg-blue-800 p-2 rounded-full">
           <BiLogOut />
         </button>
       </div>
