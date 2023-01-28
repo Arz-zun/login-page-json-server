@@ -1,0 +1,15 @@
+{
+  "users": [
+   
+    {
+      "firstname": "Arjun",
+      "lastname": "Chaudhary",
+      "email": "arjunchaudhary757@gmail.com",
+      "password": "12345678",
+      "isActive": "inactive",
+      "phonenumber": "9806871568",
+      "role": "admin",
+      "id": "SLGJNN3"
+    }
+  ]
+}
