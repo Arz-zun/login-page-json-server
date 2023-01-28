@@ -71,7 +71,7 @@ const Login = () => {
 
 
             <div className=' absolute bottom-0 bg-red-300 p-2'>
-                For testing use email:arjun@email.com password:12345678
+                For testing use email:  test@gmail.com password:12345678
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { FaSolarPanel } from 'react-icons/fa';
 import { useDispatch } from 'react-redux';
 import { postuser } from '../../api/services/addUser';
+import { editputUser } from '../../api/services/editUser';
 
 const Modal = ({ setModal, editdata = {}, type }) => {
   const { firstname, lastname, email, phonenumber, isActive, password, role, id } = editdata
@@ -16,6 +17,7 @@ const Modal = ({ setModal, editdata = {}, type }) => {
     } else if (type === "edituser") {
       console.log(editdata);
       // dispatch(edituser({ ...data, id: data.email }))
+      dispatch(editputUser(data, id && id))
     }
     setModal({ edit: { state: false, data: {} }, add: false })
   }
