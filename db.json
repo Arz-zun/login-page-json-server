@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "firstname": "Arjun",
+      "lastname": "Chaudhary",
+      "email": "arjunchaudhary757@gmail.com",
+      "password": "12345678",
+      "isActive": "inactive",
+      "phonenumber": "9806871568",
+      "role": "admin",
+      "id": "SLGJNN3"
+    },
+    {
+      "firstname": "Arjun",
+      "lastname": "Chaudhary",
+      "email": "arjunchaudhary757@gmail.com",
+      "password": "12345678",
+      "isActive": "active",
+      "phonenumber": "9806871568",
+      "role": "admin",
+      "id": "n6FlWmS"
+    },
+    {
+      "firstname": "test1",
+      "lastname": "test",
+      "email": "test1@gmail.com",
+      "password": "12345678",
+      "isActive": "active",
+      "phonenumber": "9806871567",
+      "role": "admin",
+      "id": "34Etfgt"
+    },
+    {
+      "firstname": "test",
+      "lastname": "awdawd",
+      "email": "test@gmail.com",
+      "password": "12345678",
+      "isActive": "active",
+      "phonenumber": "",
+      "role": "user",
+      "id": "G8ChSHN"
+    }
+  ]
+}
